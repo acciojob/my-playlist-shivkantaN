@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+body {
+			background-color: #cccccc;
+		}
+
+		.box {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.box div {
+			margin: 10px;
+			padding: 10px;
+			background-color: lightblue;
+			border: 2px solid black;
+			text-align: center;
+			width: 150px;
+			height: 150px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 20px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+
+		.player_two {
+			margin: 10px;
+			width: 640px;
+			height: 360px;
+		}
